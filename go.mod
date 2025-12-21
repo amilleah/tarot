@@ -1,4 +1,4 @@
-module github.com/brianstrauch/solitaire-tui
+module github.com/amilleah/tarot
 
 go 1.19
 

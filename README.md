@@ -1,29 +1,34 @@
-# Solitaire TUI
+# Tarot TUI
 
 <p align="middle">
-  <img width="49%" alt="screenshot" src="https://user-images.githubusercontent.com/7474900/215708800-9d5f2ff6-96f0-4b0e-815d-6a79fa3f0502.png" style="display: inline">
-  <img width="49%" alt="screenshot" src="https://user-images.githubusercontent.com/7474900/215708795-3c0a8d32-f943-4f49-8a4d-0516eea51a4f.png" style="display: inline">
+  <img width="49%" alt="screenshot" src="./.github/images/example-dark.png" style="display: inline">
+  <img width="49%" alt="" src="./.github/images/example-light.png" style="display: inline">
 </p>
 
-🧋 Made with [bubbletea](https://github.com/charmbracelet/bubbletea).
+<table>
+  <tr>
+    <td style="padding-right: 6px; width: 50px;">
+      <img width="50" alt="screenshot" src="./.github/images/all_cards.gif">
+    </td>
+    <td>
+      Made with <a href="https://github.com/charmbracelet/bubbletea">bubbletea</a>. 🧋 <br>
+      Rider-Waite-Smith tarot set scaled in ANSI with <a href="https://hpjansson.org/chafa/">chafa</a>.
+    </td>
+  </tr>
+</table>
 
 ## Installation
 
 ```bash
-go install github.com/brianstrauch/solitaire-tui@latest
+go install github.com/amilleah/tarot@latest
 ```
+
+## Getting started
+
+**keybinds:** Use "d" to draw a card, Use "r" to reshuffle.
+
+**mouse-clicks:** Click the deck to draw a card, automatically reshuffles when all cards are drawn. Use "r" to reshuffle as needed.
 
 ## Troubleshooting
 
 You'll want to set your terminal's line spacing to 1.0 to avoid gaps within the playing cards.
-
-<table>
-  <tr>
-    <td>Intellij</td>
-    <td>
-      Settings > Editor > Color Scheme > Console Font</br>
-      ✅ Use console font instead of the default</br>
-      Line height: 1.0
-    </td>
-  </tr>
-</table>

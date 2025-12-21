@@ -6,9 +6,10 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
-func TestFlip(t *testing.T) {
-	card := new(Card)
-	card.Flip()
+func TestArtLookup(t *testing.T) {
+	card := &Card{Value: 0, Suit: majorSuit}
+	art, ok := artFor(card)
 
-	require.True(t, card.IsVisible)
+	require.True(t, ok)
+	require.NotEmpty(t, art)
 }
