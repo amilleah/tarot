@@ -22,9 +22,9 @@ var (
 
 var suitSymbols = map[string]string{
 	"Cups":   "♥",
-	"Pents":  "♦",
-	"Swords": "♠",
-	"Wands":  "♣",
+	"Pents":  "♣",
+	"Swords": "♦",
+	"Wands":  "♠",
 }
 
 const (
