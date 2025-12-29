@@ -1,14 +1,14 @@
 # Tarot TUI
 
 <p align="middle">
-  <img width="49%" alt="screenshot" src="./.github/images/example-dark.png" style="display: inline">
-  <img width="49%" alt="" src="./.github/images/example-light.png" style="display: inline">
+  <img width="49%" alt="screenshot" src="./.github/images/example-light.png" style="display: inline">
+  <img width="49%" alt="" src="./.github/images/example-dark.png" style="display: inline">
 </p>
 
 <table>
   <tr>
     <td style="padding-right: 6px; width: 50px;">
-      <img width="50" alt="screenshot" src="./.github/images/all_cards.gif">
+      <img width="50" alt="screenshot" src="./.github/images/all-cards.gif">
     </td>
     <td>
       Made with <a href="https://github.com/charmbracelet/bubbletea">bubbletea</a>. 🧋 <br>
